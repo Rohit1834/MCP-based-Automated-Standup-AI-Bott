@@ -1,0 +1,19 @@
+# MCP Protocol
+mcp
+
+# Database
+#sqlite3  # Built-in with Python
+
+# Google Calendar
+google-auth==2.23.0
+google-auth-oauthlib==1.1.0
+google-auth-httplib2==0.1.1
+google-api-python-client==2.97.0
+
+# Slack
+slack-sdk==3.23.0
+
+# Utilities
+python-dotenv==1.0.0
+schedule==1.2.0
+pytz==2023.3

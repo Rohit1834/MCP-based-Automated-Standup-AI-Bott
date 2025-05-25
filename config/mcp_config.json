@@ -1,0 +1,16 @@
+{
+  "servers": {
+    "sqlite": {
+      "command": "python mcp_servers/sqlite_server.py",
+      "args": [
+        "database/business_data.db"
+      ]
+    },
+    "gcal": {
+      "command": "python mcp_servers/gcal_server.py"
+    },
+    "slack": {
+      "command": "python mcp_servers/slack_server.py"
+    }
+  }
+}
